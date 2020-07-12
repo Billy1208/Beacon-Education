@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity=
+            "sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="sign.css">
+</head>
+<body>
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&#9776;</a>
+        <a href="index.html" class="a1">Home</a>
+        <a href="about.html" class="a2">About</a>
+        <a href="about.html" class="a5">Personal</a>
+        <a href="signin.html" class="a3">SignIn</a>
+        <a href="signup.html" class="a4">SignUp</a>
+        <a href="#" class="fa fa-facebook" id="face" style="width: 30px;"></a>
+        <a href="#" class="fa fa-twitter" id="twitter" style="width: 30px;"></a>
+        <a href="#" class="fa fa-instagram" id="insta" style="width: 30px;"></a>
+        <h6 class="footer" style="font-size: 14px;">Beacon Education © 2020</h6>
+    </div>
+    <div class="logo">
+        <a href="index.html"><img style="margin-left: 120px; margin-top: 40px;" width="140" height="120" src="beacon logo 1.png"></a>
+    </div>
+        <span style="font-size:30px;cursor:pointer; color: white;" id="men" onclick="openNav()">&#9776; </span>
+    <div class="sign-up-form">
+        <h1> Sign Up</h1>
+        <form>
+            <input type="text" class="input-box" id="first-name" placeholder="First Name">
+            <input type="text" class="input-box" id="last-name" placeholder="Last Name">
+            <input type="email" class="input-box" id="email" placeholder="Email Address">
+
+            <div class="in">
+
+                    <div class="input" >
+                            <label for="level"> </label>
+                            <h1> </h1>
+                            <select class="form-control" id="level">
+                                <option disabled selected id="level1">Choose level...</option>
+                                <option id="level2" value="Elementary">Elementary</option>
+                                <option id="level3" value="Primary">Primary</option>
+                                <option id="level4" value="High school">High school</option>
+                            </select>
+                        <div id="y0">
+                                <label for="year00"> </label>
+                                <select class="form-control" id="year00" >
+                                    <option disabled selected id="year1">Select level first...</option>
+                                </select>
+                        </div>
+                        <div id="y1" hidden>
+                                <label for="year11"> </label>
+                                <select class="form-control" id="year11" >
+                                    <option value="Choose year..." id="year1e" disabled selected>Choose year...</option>
+                                    <option value="First" id="year2e">First</option>
+                                    <option value="Second" id="year3e">Second</option>
+                                    <option value="Third" id="year4e">Third</option>
+                                    <option value="Fourth" id="year5e">Fourth</option>
+                                    <option value="Fifth" id="year6e">Fifth</option>
+                                    <option value="Sixth" id="year7e">Sixth</option>
+                                </select>
+                        </div>
+                        <div id="y2" hidden>
+                                <label for="year22"> </label>
+                                <select class="form-control" id="year22">
+                                    <option value="Choose year..." id="year1p" disabled selected>Choose year...</option>
+                                    <option value="First" id="year2p">First</option>
+                                    <option value="Second" id="year3p">Second</option>
+                                    <option value="Third" id="year4p">Third</option>
+                                </select>
+                        </div>
+                        <div id="y3" hidden>
+                                <label for="year33"> </label>
+                                <select class="form-control" id="year33">
+                                    <option value="Choose year..." id="year1h" disabled selected>Choose year...</option>
+                                    <option value="First" id="year2h">First</option>
+                                    <option value="Second" id="year3h">Second</option>
+                                    <option value="Third" id="year4h">Third</option>
+                                </select>
+                            </div>
+
+                    </div>
+            </div>
+            <input type="password" class="input-box" id="pass" placeholder="Password">
+            <input type="password" class="input-box" id="re-pass" placeholder="Re-Enter Password">
+            <input type="radio" id="r1" name="Gender" value="option1">
+            <span id="male">Male</span>
+            <input type="radio" id="r2" name="Gender" value="option2">
+            <span id="female">Female</span>
+            <div class="bt">
+                <button type="button" class="btn btn-primary" id="sers2" style="font-size: 20px;
+                background-color:#ffb7a4;border-color: transparent;
+                border: groove 1px transparent; border-radius: 2em; margin: 20px;">Sign in</button>
+            </div>
+            <hr>
+            <h6>Already have Account? <a href="signin.html">Log in</a></h6>
+        </form>
+
+        <div class="ar">
+            <a href="#" class="arabic" style="text-decoration-line: none; color: white; border: 2px black; font-weight: bolder;
+                font-size: 30px;">Ar</a>
+        </div>
+    </div>
+    <script src="sign.js"></script>
+</body>
+</html>

@@ -1,0 +1,320 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700&display=swap');
+body {
+     background-image: url("sign.svg");
+      background-repeat: no-repeat;
+      background-size: cover ;
+     background-color: #cccccc;
+     position: flex;
+     height: 100%;
+     width: 100%;
+     overflow: hidden;
+     background-position: top;
+     background-attachment: fixed;
+     font-family: sans-serif
+
+ }
+
+.sign-in-form{
+    border: 1px black;
+    border-radius: 30px;
+    width: 700px;
+    background: rgba(255,255,255, 1);
+    padding-left: 50px;
+    padding: 110px;
+    margin: 1% auto 0;
+    text-align: center;
+
+
+}
+
+.input{
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+#r1,#r2{
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+#male{
+    color: #999;
+    margin-right: 30px
+
+}
+
+#female{
+    color: #999;
+
+}
+
+.sign-in-form h1{
+    border: 1px black;
+    color: #aab7bc;
+    margin-bottom: 30px;
+}
+
+.input-box{
+    border-radius: 20px;
+    padding: 8px;
+    margin: 10px 0;
+    width: 100%;
+    border: 1px solid #999 ;
+    outline: none;
+}
+
+.sign-in-form hr{
+    margin: 20px;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+}
+
+#first-name{
+    margin-right: 95px;
+    width:400px;
+}
+
+#last-name{
+    width:400px;
+}
+
+.sign-up-form h1,h6{
+    text-align: center;
+}
+
+.sign-up-form{
+    border: 1px black;
+    border-radius: 30px;
+    width: 1000px;
+    background: rgba(255,255,255, 1);
+    padding-left: 50px;
+    padding: 50px;
+    margin: 0% auto 0;
+    text-align: left;
+
+
+}
+
+.sign-up-form h1{
+    border: 1px black;
+    color: #aab7bc;
+    margin-bottom: 30px;
+}
+
+.input-box{
+    border-radius: 20px;
+    padding: 8px;
+    margin: 10px 0;
+    width: 100%;
+    border: 1px solid #999 ;
+    outline: none;
+}
+
+.sign-up-form hr{
+    margin: 20px;
+}
+
+.bt{
+    text-align: center;
+}
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  background-color: #Ffffff;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+  border: groove 1px black;
+  border-radius: 2em;
+}
+
+
+.sidenav a {
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.a1 {
+
+    border-bottom:2px solid #aab7bc;
+    padding: 10px 90px 0px 90px;
+    position: absolute;
+    top: 100px;
+    font-size: 36px;
+    margin-left: 0px;
+}
+
+.a2 {
+    border-bottom:2px solid #aab7bc;
+    padding: 10px 95px 0px 90px;
+    position: absolute;
+    top: 196px;
+    font-size: 36px;
+    margin-left: 0px;
+}
+
+.a3 {
+    border-bottom:2px solid #aab7bc;
+    padding: 10px 90px 0px 90px;
+    position: absolute;
+    top: 244px;
+    font-size: 36px;
+    margin-left: 0px;
+}
+
+.a4 {
+    border-bottom:2px solid #aab7bc;
+    padding: 10px 90px 0px 90px;
+    position: absolute;
+    top: 292px;
+    font-size: 36px;
+    margin-left: 0px;
+}
+
+.a5{
+    text-align: center;
+    border-bottom:2px solid #aab7bc;
+    padding: 10px 90px 0px 77px;
+    position: absolute;
+    top: 148px;
+    font-size: 36px;
+    margin-left: 0px;
+}
+
+.arabic{
+
+    padding-left: 10px;
+    padding-right: 45px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    position: absolute;
+    top: 45px;
+    right: 180px;
+    font-size: 30px;
+    width: 30px;
+    border: 2px black;
+    text-align: center;
+    text-decoration: none;
+    background-color: #ffb7a4;
+    border-radius: 50%;
+
+}
+
+.ar .arabic: hover {
+  color: black;
+  background-color: #f5d1c3;
+}
+
+.sidenav .a1:hover {
+  color: white;
+  background-color: #f5d1c3;
+}
+
+.sidenav .a2:hover {
+  color: white;
+  background-color: #f5d1c3;
+}
+
+.sidenav .a3:hover {
+  color: white;
+  background-color: #f5d1c3;
+}
+
+.sidenav .a4:hover {
+  color: white;
+  background-color: #f5d1c3;
+}
+
+.sidenav .a5:hover {
+  color: white;
+  background-color: #f5d1c3;
+}
+
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 40px;
+  right: 110px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+#men{
+  width: 200;
+  position: absolute;
+  top: 50px;
+  right: 120px;
+  font-size: 50px;
+  margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  background-color: transparent;
+  text-align: center;
+  padding-left: 45px;
+}
+
+#face{
+     position: fixed;
+     bottom: 25px;
+     background-color: transparent;
+     margin-left: 70px;
+}
+
+#twitter{
+     position: fixed;
+     bottom: 25px;
+     background-color: transparent;
+     margin-left: 110px;
+}
+
+#insta{
+     position: fixed;
+     bottom: 25px;
+     background-color: transparent;
+     margin-left: 160px;
+}
+.fa:hover {
+    opacity: 0.2;
+}
+
+.form-control{
+    color: ;
+    display: inline;
+    width: 400px;
+    margin: 0px;
+    padding: 0px;
+    border-radius: 20px;
+    border: 1px solid #999 ;
+}
+
+#level{
+    margin-right: 95px;
+}
+#y0{
+    display: inline;
+    margin: 0;
+    height: 100%;;
+}
+
+.input{
+    display: flex;
+}

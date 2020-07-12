@@ -1,0 +1,264 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700&display=swap');
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  background-color: #Ffffff;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+  border: groove 1px black;
+  border-radius: 2em;
+}
+
+
+.sidenav a {
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.a1 {
+
+    border-bottom:2px solid #aab7bc;
+    padding: 10px 90px 0px 90px;
+    position: absolute;
+    top: 100px;
+    font-size: 36px;
+    margin-left: 0px;
+}
+
+.a2 {
+    border-bottom:2px solid #aab7bc;
+    padding: 10px 95px 0px 90px;
+    position: absolute;
+    top: 196px;
+    font-size: 36px;
+    margin-left: 0px;
+}
+
+.a3 {
+    border-bottom:2px solid #aab7bc;
+    padding: 10px 90px 0px 90px;
+    position: absolute;
+    top: 244px;
+    font-size: 36px;
+    margin-left: 0px;
+}
+
+.a4 {
+    border-bottom:2px solid #aab7bc;
+    padding: 10px 90px 0px 90px;
+    position: absolute;
+    top: 292px;
+    font-size: 36px;
+    margin-left: 0px;
+}
+
+.a5{
+    text-align: center;
+    border-bottom:2px solid #aab7bc;
+    padding: 10px 90px 0px 77px;
+    position: absolute;
+    top: 148px;
+    font-size: 36px;
+    margin-left: 0px;
+}
+
+.arabic{
+
+    padding-left: 10px;
+    padding-right: 45px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    position: absolute;
+    top: 45px;
+    right: 180px;
+    font-size: 30px;
+    width: 30px;
+    border: 2px black;
+    text-align: center;
+    text-decoration: none;
+    background-color: #ffb7a4;
+    border-radius: 50%;
+
+}
+
+.ar .arabic: hover {
+  color: black;
+  background-color: #f5d1c3;
+}
+
+.sidenav .a1:hover {
+  color: white;
+  background-color: #f5d1c3;
+}
+
+.sidenav .a2:hover {
+  color: white;
+  background-color: #f5d1c3;
+}
+
+.sidenav .a3:hover {
+  color: white;
+  background-color: #f5d1c3;
+}
+
+.sidenav .a4:hover {
+  color: white;
+  background-color: #f5d1c3;
+}
+
+.sidenav .a5:hover {
+  color: white;
+  background-color: #f5d1c3;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 40px;
+  right: 110px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+
+
+body {
+    background-image: url("home.svg");
+     background-repeat: no-repeat;
+     background-size: cover ;
+    background-color: #cccccc;
+    position: flex;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    background-position: top;
+    background-attachment: fixed;
+
+}
+
+.navbar-brand{
+position: flex;
+left: 10px;
+}
+.nav-link{
+font-family: "monospace";
+font-size: 18px;
+font-weight: 900;
+font-color: #FFFFFF;
+}
+
+#men{
+  width: 200;
+  position: absolute;
+  top: 50px;
+  right: 120px;
+  font-size: 50px;
+  margin-left: 50px;
+}
+
+select{
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #999;
+    outline: none;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 0 0 10px #E8E8E8 inset;
+    height: 40px;
+    margin: 0 0 0 25px;
+    padding: 10px;
+    width: 110px;
+}
+
+
+#sers{
+    position: relative;
+    top: 50px;
+    left: 280px;
+    width:120px;
+}
+
+#wel{
+  margin: 40px;
+  padding: 80px;
+  border: 0px;
+  position: flex;
+  left: 40px;
+  top: 500px;
+}
+
+.input{
+    padding-top: 110px;
+    padding-left: 50px;
+    position: relative;
+    left: 50px
+}
+
+.fa:hover {
+    opacity: 0.2;
+}
+
+.subject{
+  margin: 40px;
+  position: absolute;
+  left: 80px;
+  top: 300px;
+}
+
+.year{
+   margin: 40px;
+   position: absolute;
+   left: 80px;
+   top: 225px;
+}
+
+.level{
+    margin: 40px;
+    position: absolute;
+    left: 80px;
+    top: 150px;
+}
+
+input[list]:focus {
+  border: 3px solid #555;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  background-color: transparent;
+  text-align: center;
+  padding-left: 45px;
+}
+
+#face{
+     position: fixed;
+     bottom: 25px;
+     background-color: transparent;
+     margin-left: 70px;
+}
+
+#twitter{
+     position: fixed;
+     bottom: 25px;
+     background-color: transparent;
+     margin-left: 110px;
+}
+
+#insta{
+     position: fixed;
+     bottom: 25px;
+     background-color: transparent;
+     margin-left: 160px;
+}
